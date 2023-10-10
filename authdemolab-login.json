@@ -1,0 +1,47 @@
+{
+"data": [
+{
+"date": 1696132800,
+"title": "No tricks, just treats.",
+"subtitle": "This October, get your orange on! Simply join the Toast Referral Program and Toast Community for a chance to win a pair of sneakers. Terms apply.",
+"slug": "fall-contest",
+"id": 1059421,
+"imageUrl": "https://d2w1ef2ao9g8r9.cloudfront.net/otl-images/Fall-Contest_Login-Page-2.png",
+"urlText": "Join the contest",
+"url": "https://bit.ly/fall-contest-2023",
+"imageOverlayAlpha": 45
+},
+{
+"date": 1695700800,
+"title": "Built for you. Built with you.",
+"subtitle": "Exciting product updates coming this fall.",
+"slug": "spark-2023",
+"id": 1059026,
+"imageUrl": "https://d2w1ef2ao9g8r9.cloudfront.net/otl-images/Spark-2023_Login-Page-2.png",
+"urlText": "Stay tuned",
+"url": "https://bit.ly/spark-2023-ipm",
+"imageOverlayAlpha": 45
+},
+{
+"date": 1653278400,
+"title": "Get the most from Toast",
+"subtitle": "We know you’re busy, and we want to help you easily access the resources you need when you need it most. Introducing Toast Resources, your guide to all of the ways that Toast can help you be successful.",
+"slug": "feature-requests-education",
+"id": 553285,
+"imageUrl": "https://d2w1ef2ao9g8r9.cloudfront.net/images/AdobeStock_226534123-copy_2023-03-27-190535_duqd.jpg",
+"urlText": "Learn More",
+"url": "https://central.toasttab.com/s/Toast-Resources",
+"imageOverlayAlpha": 45
+}
+],
+"meta": {
+"pagination": {
+"total": 3,
+"count": 3,
+"per_page": 5,
+"current_page": 1,
+"total_pages": 1,
+"links": {}
+}
+}
+}
