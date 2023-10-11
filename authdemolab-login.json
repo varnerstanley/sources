@@ -1,10 +1,10 @@
 {
 "data": [
 {
-"date": 1696132800,
+"date": 1697040264,
 "title": "Activate Passkeys and Let Your Users Log in without a Password",
 "subtitle": "Auth0 by Okta now supports passkeys! Here’s how you activate them so your users can enjoy passwordless login.",
-"slug": "fall-contest",
+"slug": "elevate-security-and-ux-with-highly-regulated-identity",
 "id": 1059421,
 "imageUrl": "https://images.ctfassets.net/23aumh6u8s0i/4cwVRfb5J5sdlJonMOY8M/fd077197f168fcbfed536bfdd3824a2b/passkeys_launch_hero_image.jpg",
 "urlText": "Go Passwordless",
@@ -12,25 +12,25 @@
 "imageOverlayAlpha": 45
 },
 {
-"date": 1695700800,
-"title": "Built for you. Built with you.",
-"subtitle": "Exciting product updates coming this fall.",
-"slug": "spark-2023",
+"date": 1697040264,
+"title": "Elevate Security and UX with Highly Regulated Identity",
+"subtitle": "High-level introduction to Okta Highly Regulated Identity",
+"slug": "activate-passkeys-let-users-log-in-without-password",
 "id": 1059026,
-"imageUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3544&q=80",
+"imageUrl": "https://images.ctfassets.net/23aumh6u8s0i/5XswKfL74GfIimfkDiqnhU/14a6550efb9076dd4e649f85169e3370/HRI-HERO.jpg",
 "urlText": "Stay tuned",
-"url": "https://bit.ly/spark-2023-ipm",
+"url": "https://auth0.com/blog/elevate-security-and-ux-with-highly-regulated-identity/",
 "imageOverlayAlpha": 45
 },
 {
-"date": 1653278400,
-"title": "Get the most from Toast",
-"subtitle": "We know you’re busy, and we want to help you easily access the resources you need when you need it most. Introducing Toast Resources, your guide to all of the ways that Toast can help you be successful.",
-"slug": "feature-requests-education",
+"date": 1693347093,
+"title": "Customization in Actions with Three New Capabilities",
+"subtitle": "Three new capabilities are all now available in Auth0 Actions.",
+"slug": "unlock-deeper-customization-in-actions-with-three-new-capabilities",
 "id": 553285,
-"imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+"imageUrl": "https://images.ctfassets.net/23aumh6u8s0i/6TXUVfhnx3KDQ11uwhonzm/2c819b21a7cf147a43be8cc66bde7a1b/actions-header.jpeg",
 "urlText": "Learn More",
-"url": "https://central.toasttab.com/s/Toast-Resources",
+"url": "https://auth0.com/blog/unlock-deeper-customization-in-actions-with-three-new-capabilities/",
 "imageOverlayAlpha": 45
 }
 ],
