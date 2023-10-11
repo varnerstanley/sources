@@ -1,7 +1,7 @@
 {
 "data": [
 {
-"date": 1697040264,
+"date": 1696457889,
 "title": "Activate Passkeys and Let Your Users Log in without a Password",
 "subtitle": "Auth0 by Okta now supports passkeys! Here’s how you activate them so your users can enjoy passwordless login.",
 "slug": "elevate-security-and-ux-with-highly-regulated-identity",
@@ -12,7 +12,7 @@
 "imageOverlayAlpha": 45
 },
 {
-"date": 1697040264,
+"date": 1696457889,
 "title": "Elevate Security and UX with Highly Regulated Identity",
 "subtitle": "High-level introduction to Okta Highly Regulated Identity",
 "slug": "activate-passkeys-let-users-log-in-without-password",
