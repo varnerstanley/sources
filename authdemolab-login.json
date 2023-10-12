@@ -32,12 +32,23 @@
 "urlText": "Learn More",
 "url": "https://auth0.com/blog/unlock-deeper-customization-in-actions-with-three-new-capabilities/",
 "imageOverlayAlpha": 45
+},
+  {
+"date": 1693347093,
+"title": "In Celebration of Vittorio Bertocci",
+"subtitle": "Our friend and titan of the identity industry",
+"slug": "in-celebration-of-vittorio-bertocci",
+"id": 553285,
+"imageUrl": "https://images.ctfassets.net/23aumh6u8s0i/6TXUVfhnx3KDQ11uwhonzm/2c819b21a7cf147a43be8cc66bde7a1b/actions-header.jpeg",
+"urlText": "His Impact and Legacy",
+"url": "https://images.ctfassets.net/23aumh6u8s0i/3JqYvloOyamwaStwWHlA8S/c2524c1b0e7d80f9672b5732d22f9e9d/Vittorio_Bertocci__Principal_Architect.jpg",
+"imageOverlayAlpha": 45
 }
 ],
 "meta": {
 "pagination": {
-"total": 3,
-"count": 3,
+"total": 4,
+"count": 4,
 "per_page": 5,
 "current_page": 1,
 "total_pages": 1,
