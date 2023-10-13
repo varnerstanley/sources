@@ -1,0 +1,58 @@
+{
+"data": [
+{
+"date": 1696457889,
+"title": "Earn Rewards When You Are Consistent",
+"subtitle": "The only coaching platform that incentivizes you to be healthier.",
+"slug": "",
+"id": 1059421,
+"imageUrl": "https://as2.ftcdn.net/v2/jpg/04/38/56/67/1000_F_438566736_SF6CkRN35aYkLVGIZDky3C6cC5eX04XJ.jpg",
+"urlText": "Get Started Now",
+"url": "",
+"imageOverlayAlpha": 45
+},
+{
+"date": 1696457889,
+"title": "The only platform that incentivizes you to get accountability partners",
+"subtitle": "Sweat together, earn together",
+"slug": "",
+"id": 1059026,
+"imageUrl": "https://as1.ftcdn.net/v2/jpg/01/70/66/98/1000_F_170669895_WJFaD86b6WxDdcD4OarLYxAOOkqXYO4v.jpg",
+"urlText": "Let's Go!",
+"url": "",
+"imageOverlayAlpha": 45
+},
+{
+"date": 1693347093,
+"title": "@Home and Gym Plans",
+"subtitle": "Flexible and adaptable to your lifestyle",
+"slug": "",
+"id": 553285,
+"imageUrl": "https://as1.ftcdn.net/v2/jpg/05/86/82/40/1000_F_586824079_iMupamTeD1uVlfKb8Zxr5oyKeAZMqQ0B.jpg",
+"urlText": "No more planning and guesswork",
+"url": "",
+"imageOverlayAlpha": 45
+},
+  {
+"date": 1697064560,
+"title": "Get Stronger With a Structured Plan",
+"subtitle": "Know exactly what to do for every workout. No more planning, extreme diets or guesswork.",
+"slug": "",
+"id": 2345325,
+"imageUrl": "https://uploads-ssl.webflow.com/63e7c24e87812215e863a574/6503db70c284645ab4458ae3_gymxcel1600.jpg",
+"urlText": "Lose stubborn, body fat, and keep it off",
+"url": "",
+"imageOverlayAlpha": 45
+}
+],
+"meta": {
+"pagination": {
+"total": 4,
+"count": 4,
+"per_page": 5,
+"current_page": 1,
+"total_pages": 1,
+"links": {}
+}
+}
+}
