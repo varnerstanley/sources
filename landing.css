@@ -19,3 +19,6 @@ html,body {
   padding: 3rem 0;
   line-height: 1.5;
 }
+.logo-db {
+  filter: invert(100%)
+}
