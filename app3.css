@@ -1,9 +1,10 @@
        :root {
            --primary-color: #d13338;
-           --font-family: trade-gothic-next, sans-serif;
+           --font-family: "Rubik Burned", system-ui;
        }
        button {
-        font-family: "Rubik Burned", system-ui;
+        font-family: "Roboto Slab", serif;
+        font-weight: 900;
        }
 
        body {
