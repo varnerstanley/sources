@@ -1,10 +1,11 @@
        :root {
            --primary-color: #d13338;
            --font-family: "Rubik Burned", system-ui;
+           --font-default-weight: 900;   
        }
        button {
-        font-family: "Rubik Burned", system-ui;
-        font-weight: 400;
+        font-family: "Oswald", sans-serif;
+        font-weight: 700;
        }
 
        body {
