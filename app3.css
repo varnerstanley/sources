@@ -4,8 +4,6 @@
            --font-default-weight: 900;   
        }
 
-       }
-
        body {
            background: rgb(0, 4, 3);
            background: linear-gradient(90deg, rgba(0, 4, 3, 1) 0%, rgba(9, 47, 121, 1) 28%, rgba(255, 0, 48, 1) 100%);
