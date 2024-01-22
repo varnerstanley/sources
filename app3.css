@@ -1,0 +1,33 @@
+       :root {
+       --primary-color: #d13338;
+        }
+        body {
+            background: rgb(0,4,3);
+            background: linear-gradient(90deg, rgba(0,4,3,1) 0%, rgba(9,47,121,1) 28%, rgba(255,0,48,1) 100%);     
+        }
+        .background-image-container {
+            /* background-image: url('');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center; */
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .logo {
+            display: none;
+            width: 100%;
+            padding: 2rem 2rem 0;
+            z-index: 10;
+            justify-content: center;
+        }
+        .logo img {
+            height: 36px;
+        }
+        @media only screen and (min-height: 720px) {
+        .logo {
+            display: flex;
+        }
+        }
