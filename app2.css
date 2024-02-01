@@ -17,6 +17,7 @@
             --success-color: black;
             --title-font-weight: 700;
             --title-font-size: 20px;
+            --primary-color: #3b71ca;
     }
     body {
       width: 100%;
