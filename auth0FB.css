@@ -1,0 +1,464 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+            --button-border-radius: 0.375rem !important;
+        }
+
+        :root {
+            --primary-color: #4c28ff;
+            --button-border-radius: 0.375rem !important;
+            --social-button-border-width: 1px;
+            --out-input-border-radius: 25px;
+            --lg-font-size: 18px;
+            --secondary-button-text-color: #0000008a;
+            --overlay-box-shadow-size: 0 1px 1px 0 rgba(0, 0, 0, 0.24), 0 0 1px 0 rgba(0, 0, 0, 0.12);
+            --title-font-color: #4c28ff;
+            --header-alignment: center;
+            --title-font-size: 1.875rem;
+            --title-font-weight: 600;
+            --font-default-color: #544e5d;
+            --border-radius-outer: 2.5rem;
+            --prompt-min-height: 27rem;
+            --prompt-width: 26.75rem;
+
+        }
+
+
+
+        h1 {
+            text-align: left !important;
+            margin: 0;
+            font-weight: 600 !important;
+            font-style: normal !important;
+            font-size: 1.875rem !important;
+        }
+
+        div p {
+            color: #544e5d !important;
+            font-size: .9375rem !important;
+            font-weight: 600 !important;
+        }
+
+        /* .input {
+            font-family: Avenir Next, Helvetica, Arial, sans-serif;
+            max-width: 350px;
+            width: 100%;
+            height: 50px;
+            line-height: 40px;
+            font-size: 18px;
+            font-weight: 500;
+            background-color: #f3f4f8;
+            border: 2px solid #e0e1e7;
+            padding: 5px 30px;
+            border-radius: 25px;
+            transition: border-color .15s ease-in;
+        } */
+
+        .sso-btn {
+            padding: 0 0.75rem;
+            text-align: left;
+            width: 18.75rem;
+            height: 2.75rem;
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.24), 0 0 1px 0 rgba(0, 0, 0, 0.12);
+            /* border: none; */
+            /* border-radius: 0.375rem; */
+            margin: 0 auto 0.625rem;
+            font-size: 1.1875rem;
+            line-height: 2.6875rem;
+            position: relative;
+            font-weight: 600;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .input {
+            font-family: Avenir Next, Helvetica, Arial, sans-serif;
+            max-width: 350px;
+            width: 100%;
+            height: 50px;
+            line-height: 40px;
+            font-size: 18px;
+            font-weight: 500;
+            /* background-color: #f3f4f8; */
+            border: 2px solid #e0e1e7;
+            padding: 5px 30px;
+            border-radius: 25px;
+            transition: border-color .15s ease-in;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        .blue-side {
+            flex: 1;
+            background-color: #4c28ff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+
+
+        }
+
+        .gray-side {
+            flex: 1;
+            background-color: #fff;
+            position: relative;
+
+            display: block;
+            background: url(https://www.fishbowlapp.com/assets/images/group-4.png) no-repeat;
+            background-size: cover;
+            height: 100vh;
+            text-align: center;
+            overflow-y: auto;
+        }
+
+        @media (max-width: 1000px) {
+            .blue-side {
+                display: none;
+            }
+        }
+
+        .py-4 {
+            padding-top: 1.5rem !important;
+            padding-bottom: 1.5rem !important;
+        }
+
+        .w-50 {
+            width: 50% !important;
+        }
+
+        img,
+        svg {
+            vertical-align: middle;
+        }
+
+        /* Styles for card like elements (e.g. success/error alert, demo link) */
+        div.card {
+            width: 400px;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0.25rem;
+            text-align: center;
+        }
+
+        #widget {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100%;
+        }
+
+        body .login-container .content-column {
+            width: 100%;
+            height: 100%;
+        }
+
+        header {
+            padding: 2.375rem !important;
+        }
+
+        /* .Button {
+            border: 0.125rem solid transparent;
+            border-radius: 0.25rem;
+            box-sizing: border-box !important;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Ameriprise Sans, Arial, sans-serif;
+            font-size: 1rem;
+            letter-spacing: 0.031rem;
+            padding: 0.563rem 0.938rem 0.5rem;
+            text-align: center;
+        } */
+
+        .new-user {
+            text-align: left;
+        }
+
+        .blue-link {
+            color: #2583e3;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            line-height: 1.5;
+        }
+
+        .auth0Logo {
+            filter: invert(100%);
+        }
+
+        .otp-login {
+            background-color: transparent !important;
+            width: 400px;
+            padding: 4px 16px;
+            margin-bottom: 8px;
+            min-height: 52px;
+            font-family: inherit;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+            outline: none;
+            cursor: pointer;
+            /* color: #fff; */
+            border: 1px solid #c9cace;
+            border-radius: 3px;
+        }
+
+        .mobile-buttons {
+            font-size: 0.9375rem;
+            font-weight: 500 !important;
+            text-align: center;
+            padding-bottom: 3.75rem;
+        }
+
+        .mobile-text {
+            margin-bottom: 2.25rem;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .mobile-buttons a {
+            margin: 0 0.5rem;
+        }
+
+        .mobile-buttons a .icon {
+            margin-right: 0.75rem;
+            display: flex;
+        }
+
+        .mobile-buttons a .icon svg {
+            height: 1.25rem;
+            width: 1.25rem;
+        }
+
+        .fsb-link-button-icon {
+            display: inline-flex;
+            align-items: center;
+            height: 35px;
+            background-color: #ffffff;
+            line-height: 35px;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0 27px 0 15px;
+            border-radius: 30px;
+            font-size: 12px;
+            color: #4c28ff;
+        }
+
+        .fsb-link-button-icon span.icon {
+            margin-right: 0.75rem;
+            display: flex;
+        }
+
+        .fsb-link-button-icon span.icon ::ng-deep svg {
+            height: 1.25rem;
+            width: 1.25rem;
+        }
+
+        .nghost-sc283 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            flex: 1;
+            position: relative;
+            background-size: auto 54%;
+            background: #4c28ff url("/assets/images/chat-bubbles.svg") no-repeat top left;
+            color: #fff;
+            width: 100%;
+        }
+
+        .legal-notice {
+            position: absolute;
+            bottom: 1em;
+            width: 100%;
+            text-align: center;
+            margin: 1em auto 0;
+            padding: 0 2em;
+        }
+
+        .industry-screenshot-container {
+            padding-top: 1rem;
+            height: 43vh;
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        @media all and (max-width: 800px) {
+            .industry-screenshot-container {
+                display: none;
+            }
+        }
+
+        .industry-screenshot-container img {
+            height: 44.375rem;
+        }
+
+        .social-links {
+            align-self: flex-end;
+            font-weight: 600;
+            font-size: 0.9375rem;
+            text-transform: uppercase;
+            padding: 1.25rem 1.875rem;
+        }
+
+        .social-links a {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 0.75rem;
+        }
+
+        .social-links a:first-child {
+            margin-left: 1.75rem;
+        }
+
+        .social-links a svg {
+            width: 1.875rem;
+            height: 1.875rem;
+        }
+
+        .slogan {
+            margin-top: 0.875rem;
+            font-size: 1.25rem;
+            font-weight: 600;
+            line-height: 2.5rem;
+            letter-spacing: -0.03125rem;
+        }
+
+        .slogan {
+            font-size: 20px;
+            font-weight: 600;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.5;
+            letter-spacing: -0.5px;
+            max-width: 21.25rem;
+            text-align: center;
+        }
+
+        .by-gd {
+            height: 2.375rem;
+            margin-top: 0.875rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .by-gd .by {
+            color: #cdcde5;
+            font-size: 1.75rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-right: 0.5rem;
+        }
+
+        .by-gd .gd-logo {
+            height: 2.375rem;
+        }
+
+        .logo {
+            text-align: center;
+        }
+
+        @media all and (max-width: 800px) {
+            .logo {
+                margin: 11.5625rem auto 9.6875rem;
+            }
+        }
+
+        .logo img {
+            width: 20rem;
+        }
+
+        @media screen and (-ms-high-contrast: active),
+        screen and (-ms-high-contrast: none) {
+            .logo {}
+
+            .logo.ie11tweak {
+                margin-top: 10vh;
+            }
+        }
+
+        .mobile-buttons {
+            font-size: 0.9375rem;
+            font-weight: 500;
+            text-align: center;
+            padding-bottom: 3.75rem;
+        }
+
+        .mobile-buttons .mobile-text {
+            margin-bottom: 2.25rem;
+        }
+
+        .mobile-buttons a {
+            margin: 0 0.5rem;
+        }
+
+        .mobile-buttons a .icon {
+            margin-right: 0.75rem;
+            display: flex;
+        }
+
+        .mobile-buttons a .icon svg {
+            height: 1.25rem;
+            width: 1.25rem;
+        }
+
+        .legal-notice {
+            position: absolute;
+            bottom: 1em;
+            width: 100%;
+            text-align: center;
+            margin: 1em auto 0;
+            padding: 0 2em;
+            color: #fff;
+        }
+
+        .fsb-button {
+            line-height: 38px;
+            background-color: #4c28ff;
+            color: #fff;
+            border: 2px solid transparent;
+            font-size: 15px;
+            font-weight: 600;
+            border-radius: 33px;
+            padding: 0 40px;
+            cursor: pointer;
+        }
+
+        .sign-up-btn {
+            width: 10.625rem;
+            margin: 0.625rem auto 2rem;
+        }
+
+        ._button-login-id {
+            font-weight: 600;
+            line-height: 38px;
+            background-color: #4c28ff;
+            color: #fff;
+            border: 2px solid #0000;
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 33px;
+            padding: 0 40px;
+            cursor: pointer;
+
+        }
+
+        form button span {
+            font-weight: 600;
+        }
