@@ -1,0 +1,165 @@
+:root {
+        --prompt-background: #f9fafb;
+      }
+
+      @media screen and (max-width: 500px) {
+        :root {
+          --prompt-background: #ffffff;
+        }
+      }
+
+      body {
+        background-color: var(--prompt-background);
+        background-image: none;
+        background-repeat: no-repeat;
+      }
+
+      .bg {
+        background-image: url("https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        position: fixed;
+        top: 0;
+        left: 50%;
+        width: 50%;
+        height: 100%;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+      }
+
+      @media screen and (max-width: 900px) {
+        div.bg {
+          display: none;
+        }
+
+        div.prompt-wrapper {
+          width: 100%;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        .child {
+          padding-top: calc(var(--outer-padding) / 2);
+          margin-left: var(--spacing-5);
+          margin-right: var(--spacing-5);
+        }
+      }
+
+      .prompt-wrapper {
+        flex-direction: column;
+        display: flex;
+        width: 50%;
+        background-color: var(--prompt-background);
+        flex: 1;
+        height: 100%;
+      }
+
+      .prompt-wrapper > * {
+        margin: auto;
+      }
+
+      .widget {
+        justify-content: center;
+        align-items: stretch;
+        flex: 0;
+        max-height: 900px;
+      }
+
+      .child {
+        height: 100%;
+        flex: 0;
+        font-size: var(--default-font-size);
+        padding-bottom: var(--outer-padding);
+        padding-left: var(--spacing-5);
+        padding-right: var(--spacing-5);
+      }
+
+      .empty {
+        flex: 1;
+      }
+
+      .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: #003338;
+        padding: 16px 0;
+        width: 100%;
+        color: white;
+        /* Use a high z-index for future-proofing */
+        z-index: 10;
+      }
+
+      .footer ul {
+        text-align: center;
+      }
+
+      .footer ul li {
+        display: inline-block;
+        margin: 0 4px;
+      }
+
+      .footer ul li:not(:first-of-type) {
+        margin-left: 0;
+      }
+
+      .footer ul li:not(:first-of-type)::before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 4px;
+        height: 4px;
+        margin-right: 4px;
+        background-color: white;
+        border-radius: 50%;
+      }
+
+      .footer a {
+        color: white;
+      }
+
+      /* override some of the styles provided by Auth0 - these may be a little brittle! */
+      /* override view height set on the component by Auth0 */
+      .widget > div {
+        min-height: inherit !important;
+      }
+
+      @media screen and (max-width: 480px) {
+        main {
+          align-items: inherit !important;
+          justify-content: inherit !important;
+          justify-items: inherit !important;
+        }
+      }
+
+      main {
+        min-height: inherit !important;
+      }
+
+      [data-action-button-primary]:disabled,
+      [data-action-button-secondary]:disabled {
+        background-color: #ccc;
+        color: #444;
+        pointer-events: none;
+      }
+
+      #custom-field-1 {
+        margin: var(--spacing-2) 0 0 0;
+
+        :hover {
+          cursor: pointer;
+        }
+
+        label {
+          line-height: 1.2;
+        }
+
+        a {
+          line-height: inherit;
+
+          :hover {
+            cursor: pointer;
+            text-decoration: underline;
+          }
+        }
+      }
