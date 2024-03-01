@@ -1,5 +1,6 @@
 :root {
         --prompt-background: #f9fafb;
+        --primary-color: #6322E5;
       }
 
       @media screen and (max-width: 500px) {
