@@ -14,8 +14,8 @@
       --title-font-size: 20px;
     }
       :root {
-        --primary-color: #000;
-        --primary-color-no-override: #000;
+        --primary-color: #4a78ff;
+        --primary-color-no-override: #4a78ff;
         
       }
     body {
