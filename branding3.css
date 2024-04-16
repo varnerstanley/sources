@@ -2,6 +2,7 @@
         --primary-color: #6322E5;
         --primary-color-no-override: #6322E5;
         --prompt-background: #f9fafb;
+        --shadow-component-outer: 0 12px 40px rgba(0, 0, 0, 0.12);
       }
  P
 
