@@ -67,6 +67,7 @@
         align-items: stretch;
         flex: 0;
         max-height: 900px;
+        --shadow-component-outer: 0 12px 40px rgba(0, 0, 0, 0.12);
       }
 
       .child {
