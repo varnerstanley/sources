@@ -1,0 +1,39 @@
+<svg width="350" height="100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font-family: Arial, sans-serif;
+      font-size: 36px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .shop {
+      fill: #dc2626; /* Tailwind red-600 */
+    }
+    .tab {
+      fill: #000000;
+    }
+    .tm {
+      font-size: 12px;
+      vertical-align: super;
+    }
+    .subtitle {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      fill: #374151; /* Tailwind gray-700 */
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  </style>
+
+  <!-- shopTAB™ -->
+  <text x="50%" y="40" text-anchor="middle" class="title">
+    <tspan class="shop">shop</tspan>
+    <tspan class="tab">TAB</tspan>
+    <tspan class="tm" dx="4">™</tspan>
+  </text>
+
+  <!-- Rewards Member Program -->
+  <text x="50%" y="70" text-anchor="middle" class="subtitle">
+    Rewards Member Program
+  </text>
+</svg>
