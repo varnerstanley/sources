@@ -27,11 +27,11 @@
 
   <!-- shopTAB™ -->
   <text x="50%" y="40" text-anchor="middle" class="title">
-  <tspan>
-    <tspan class="shop">shop</tspan><tspan class="tab">TAB</tspan>
-  </tspan>
+  <tspan class="shop">shop</tspan>
+  <tspan class="tab" dx="-6">TAB</tspan>
   <tspan class="tm" dx="4">™</tspan>
 </text>
+
 
 
   <!-- Rewards Member Program -->
