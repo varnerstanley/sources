@@ -1,0 +1,13 @@
+{
+  "accounts": {
+    "acc_001": { "username": "jane.doe@example.com" }
+  },
+  "index": {
+    "by_member_id": {
+      "88515516": "acc_001"
+    },
+    "by_member_id_alt": {
+      "623-36-2350": "acc_001"
+    }
+  }
+}
