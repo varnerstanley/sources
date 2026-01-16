@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="{{locale}}">
+<head>
+  {%- auth0:head -%}
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+   :root {
+     --widget-background-color: #f9f7f2;
+     --shadow-component-outer: 0 0 #0000, 
+       0 0 #0000, 
+       0 4px 24px 0 hsl(0 0% 0% / 1.57%),
+       0 4px 32px 0 hsl(0 0% 0% / 1.57%),
+       0 2px 64px 0 hsl(0 0% 0% / 1.18%),
+       0 16px 32px 0 hsl(0 0% 0% / 1.18%);
+       --border-default-color: #1f1e1d26;
+       --logo-height: 52px;
+       --input-background-color: #f9f7f2;
+       --border-radius-outer: 2rem;
+            }
+          
+            #custom-prompt-logo {
+                background-image: url('https://mfc.fit/auth0svg.svg');
+            }
+            h1 {
+              display: none;
+            }
+            header div p {
+              display: none !important;
+            }
+         body {
+            background-color: #f9f7f2 !important;
+            font-family: 'Inter', sans-serif;
+            color: #1d1c16;
+            }
+            .serif-heading {
+                font-family: 'Source Serif 4', serif;
+            }
+            
+            .auth0-lock.auth0-lock {
+                box-shadow: 0 4px 24px rgba(0,0,0,0.04) !important;
+                border: 0.5px solid #faf9f5 !important;
+                border-radius: 2rem !important;
+            }
+            .ulp-title {
+                display: none !important; 
+            }
+    body {
+      background-color: #f9f7f2 !important;
+      font-family: 'Inter', sans-serif;
+      color: #1d1c16;
+    }
+    .serif-heading {
+      font-family: 'Source Serif 4', serif;
+    }
+    /* Auth0 Widget Specific Overrides */
+    .auth0-lock.auth0-lock {
+      box-shadow: 0 4px 24px rgba(0,0,0,0.04) !important;
+      border: 0.5px solid #e5e2da !important;
+      border-radius: 2rem !important;
+    }
+    .ulp-title {
+      display: none !important; /* Claude uses the H2 in the layout instead */
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col _hide-prompt-logo">
+<nav class="fixed top-0 left-0 right-0 w-full bg-[#f9f7f2] z-50">
+    <div class="flex items-center justify-between max-w-[90rem] mx-auto px-8 h-20">
+      <div class="flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="106" height="40" fill="none" class="sc-17e9fa4e-41 cKPiRK">
+        <path d="M1.691 17.48A12.391 12.391 0 0011.91 7.26l.423-2.551a.773.773 0 00-.825-.893C7.515 4.124 3.752 5.45 1.67 6.3A2.689 2.689 0 000 8.79v8.063c0 .475.423.835.892.757l.799-.13zM14.436 7.26a12.391 12.391 0 0010.218 10.22l.799.13a.765.765 0 00.892-.757V8.79a2.7 2.7 0 00-1.67-2.49c-2.077-.856-5.845-2.176-9.838-2.484a.77.77 0 00-.824.892l.423 2.553zM24.659 20.011A12.391 12.391 0 0014.44 30.23l-.522 4.979c-.047.449.449.767.825.517 0 0 .005 0 .01-.005 3.288-2.219 10.793-8.027 11.534-15.282a.546.546 0 00-.631-.59l-.992.162h-.005zM11.908 30.228a12.391 12.391 0 00-10.22-10.22l-1.07-.177a.487.487 0 00-.563.527C.76 27.655 8.37 33.5 11.683 35.718a.49.49 0 00.757-.46l-.527-5.036-.005.006zM62.794 13.954h-2.497a.268.268 0 00-.27.27v7.206c0 .88-.146 1.654-.438 2.318-.292.665-.703 1.173-1.238 1.52-.535.345-1.167.518-1.897.518-1.049 0-1.838-.346-2.362-1.038-.525-.692-.79-1.686-.79-2.978v-7.546a.268.268 0 00-.27-.27h-2.524a.268.268 0 00-.27.27v7.854c0 1.216.151 2.233.448 3.049.298.816.709 1.475 1.222 1.983a4.408 4.408 0 001.773 1.082 6.722 6.722 0 002.092.324c1.048 0 1.919-.2 2.616-.606a6.121 6.121 0 001.308-.994c.151-.157.41-.07.454.14l.195 1.065c.021.13.135.222.265.222h2.172c.152 0 .27-.12.27-.27V14.224a.268.268 0 00-.27-.27h.011zM73.644 25.675h-3.26c-.578 0-.989-.119-1.221-.351-.232-.233-.351-.633-.351-1.195v-7.232c0-.151.119-.27.27-.27h4.421c.152 0 .27-.12.27-.27v-2.13a.268.268 0 00-.27-.27h-4.15a.542.542 0 01-.541-.541V9.854a.268.268 0 00-.27-.27h-2.498a.268.268 0 00-.27.27v14.589c0 1.313.308 2.291.93 2.935.616.648 1.61.967 2.978.967h3.962c.151 0 .27-.119.27-.27v-2.13a.268.268 0 00-.27-.27zM86.34 14.517c-.855-.487-1.85-.73-2.995-.73-.897 0-1.724.178-2.476.535-.54.26-1.022.579-1.432.962a.266.266 0 01-.449-.194V8.939a.268.268 0 00-.27-.27h-2.524a.268.268 0 00-.27.27v19.134c0 .152.118.27.27.27h2.524c.151 0 .27-.118.27-.27v-7.01c0-.935.151-1.746.449-2.433.297-.68.724-1.21 1.28-1.589.552-.373 1.206-.562 1.952-.562s1.34.168 1.827.508c.487.335.854.81 1.097 1.422.244.61.368 1.335.368 2.178v7.486c0 .152.119.27.27.27h2.497c.152 0 .27-.118.27-.27v-7.74c0-1.46-.226-2.676-.686-3.638-.46-.967-1.113-1.692-1.967-2.178h-.006zM104.469 12.945c-.578-1.421-1.405-2.518-2.475-3.286-1.071-.767-2.352-1.151-3.849-1.151-1.497 0-2.757.384-3.838 1.151-1.075.768-1.908 1.865-2.486 3.286-.578 1.428-.87 3.13-.87 5.114v.897c0 2.006.292 3.724.87 5.157.578 1.432 1.41 2.524 2.486 3.275 1.076.752 2.357 1.125 3.838 1.125 1.481 0 2.784-.373 3.849-1.125 1.064-.751 1.891-1.843 2.475-3.275.579-1.433.87-3.151.87-5.157v-.897c0-1.984-.291-3.692-.87-5.114zm-10.453 6.357V18.172c0-2.286.356-4.037 1.07-5.254.713-1.216 1.735-1.826 3.064-1.826 1.238 0 2.206.524 2.908 1.578.271.378.038.86-.075.989l-5.54 6.178c-.492.552-1.4.211-1.417-.524l-.01-.01zm8.259-.454c0 2.27-.357 4.01-1.071 5.227-.713 1.216-1.735 1.827-3.064 1.827-1.222 0-2.184-.514-2.881-1.54-.27-.374-.038-.85.075-.984l5.519-6.19a.81.81 0 011.416.525V18.853l.006-.005zM48.503 25.704h-.075c-.303 0-.514-.065-.649-.195-.13-.13-.195-.373-.195-.73v-5.761c0-1.703-.524-3-1.573-3.892-1.048-.892-2.518-1.335-4.41-1.335-1.2 0-2.254.189-3.162.562-.908.373-1.633.903-2.178 1.59a4.464 4.464 0 00-.914 2.09.276.276 0 00.27.314h2.454a.27.27 0 00.26-.21c.146-.54.464-.984.967-1.325.562-.384 1.281-.578 2.162-.578.973 0 1.735.227 2.276.686.54.46.816 1.092.816 1.898v.6c0 .151-.119.27-.27.27h-3.27c-1.984 0-3.498.4-4.54 1.195-1.038.794-1.563 1.934-1.563 3.416 0 .88.227 1.637.676 2.275.448.638 1.07 1.12 1.87 1.449.795.33 1.708.492 2.74.492 1.352 0 2.45-.314 3.303-.94.373-.276.708-.59 1-.93.14-.168.416-.109.465.102.076.357.221.67.432.924.373.45 1.07.676 2.081.676h1.303c.151 0 .27-.119.27-.27v-1.924c0-.368-.119-.45-.54-.45h-.006zm-3.956-3.173c0 .692-.157 1.319-.476 1.87a3.314 3.314 0 01-1.351 1.292c-.579.308-1.287.465-2.108.465-.822 0-1.449-.195-1.925-.578-.475-.384-.718-.876-.718-1.476 0-.73.248-1.276.745-1.632.498-.357 1.211-.536 2.152-.536h3.68v.595z" fill="#000"></path>
+       </svg>
+      </div>
+      <div class="hidden md:flex items-center gap-6 text-sm text-[#6b6a64]">
+        <a href="#">Meet Auth0</a>
+        <a href="#">Platform</a>
+        <a href="#">Solutions</a>
+        <a href="#" class="px-4 py-2 border border-gray-300 rounded-lg text-black">Contact</a>
+        <a href="#" class="px-4 py-2 bg-black text-white rounded-lg">Try Auth0</a>
+      </div>
+    </div>
+  </nav>
+  <main class="grid grid-cols-1 lg:grid-cols-2 flex-grow pt-10">
+    <div class="flex flex-col items-center justify-center p-6 lg:p-24">
+      <div class="w-full max-w-md text-center">
+        <h2 class="serif-heading text-[2.5rem] lg:text-[3.5rem] leading-none mb-4">Impossible?<br>Possible.</h2>
+        <p class="text-lg mb-10 text-[#6b6a64]">Your Identity partner</p>
+          {%- auth0:widget -%}
+        <!-- <p class="mt-6 text-xs text-gray-400 px-8">
+          By continuing, you acknowledge Auth0's <a href="#" class="underline">Privacy Policy</a> and agree to get occasional product update and promotional emails.
+        </p> -->
+      </div>
+    </div>
+    <div class="hidden lg:flex items-center justify-center p-8">
+      <div class="relative w-full h-[85vh] max-w-[650px] overflow-hidden rounded-[2.5rem] shadow-lg bg-[#cc6b49]">
+        <video 
+          src="https://d2h66csdf33d8m.cloudfront.net/oceanwavessm.mp4" 
+          autoplay 
+          loop 
+          muted 
+          playsinline 
+          class="w-full h-full object-cover">
+        </video>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
