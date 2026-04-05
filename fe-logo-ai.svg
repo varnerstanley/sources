@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="312" height="44" viewBox="0 0 312 44" role="img" aria-label="Family Economy AI">
+  <title>Family Economy AI</title>
+  <defs>
+    <linearGradient id="fe-tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#456EFE"/>
+      <stop offset="100%" stop-color="#7B9FFF"/>
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800;900&amp;display=swap');
+      .fe-wm {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-size: 19px;
+        font-weight: 800;
+        letter-spacing: -0.4px;
+      }
+      .fe-init {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-size: 14px;
+        font-weight: 900;
+        letter-spacing: 0.5px;
+      }
+    </style>
+  </defs>
+
+  <!-- FE tile -->
+  <rect width="44" height="44" rx="11" fill="url(#fe-tile)"/>
+  <text class="fe-init" x="22" y="22" fill="white" text-anchor="middle" dominant-baseline="central">FE</text>
+
+  <!-- Wordmark: "Family Economy AI" — light background -->
+  <text class="fe-wm" x="56" y="29.5">
+    <tspan fill="#23303B">Family </tspan><tspan fill="#456EFE">Economy</tspan><tspan fill="#7B9FFF"> AI</tspan>
+  </text>
+</svg>
